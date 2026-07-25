@@ -1,5 +1,5 @@
 [buildPlans.IosevkaCustom]
-family = "Meow Code"
+family = "Iosevka Custom"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
@@ -67,6 +67,11 @@ micro-sign = "flat-bottom-serifless"
 decorative-angle-brackets = "short"
 lig-ltgteq = "slanted"
 lig-double-arrow-bar = "without-notch"
+
+[buildPlans.IosevkaCustom.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
 
 [buildPlans.IosevkaCustom.slopes.Upright]
 angle = 0
