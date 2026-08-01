@@ -1,97 +1,65 @@
-[buildPlans.MeowCode]
-family = "Meow Code"
+[buildPlans.Fgf]
+family = "fgf"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-[buildPlans.MeowCode.variants.design]
-one = "base-top-cut"
+[buildPlans.Fgf.variants.design]
+one = "no-base-long-top-serif"
 two = "straight-neck-serifless"
-four = "open-serifed"
-five = "oblique-arched-serifless"
-six = "closed-contour"
-seven = "straight-serifed-crossbar"
+four = "open-non-crossing-serifless"
+seven = "straight-serifless-crossbar"
 eight = "two-circles"
-nine = "closed-contour"
-zero = "reverse-slashed"
+nine = "straight-bar"
+zero = "slashed"
 capital-a = "round-top-serifless"
-capital-b = "standard-unilateral-serifed"
-capital-d = "more-rounded-unilateral-serifed"
-capital-g = "flat-bottom-serifless-hooked"
-capital-h = "serifless"
-capital-i = "serifed"
-capital-j = "serifed-both-sides"
-capital-k = "straight-bottom-right-serifed"
-capital-l = "serifless"
-capital-m = "hanging-serifless"
-capital-n = "standard-serifless"
 capital-q = "crossing-baseline"
-capital-r = "standing-open-bottom-right-serifed"
-capital-u = "flat-bottom-serifless"
-capital-v = "straight-serifless"
-capital-w = "straight-serifless"
-capital-x = "straight-serifless"
-capital-y = "straight-base-serifed"
+capital-r = "straight-serifless"
+capital-v = "curly-serifless"
+capital-w = "straight-vertical-sides-serifless"
 capital-z = "straight-serifless-with-crossbar"
-a = "double-storey-flat-bottom-serifless"
-b = "flat-bottom-serifless"
-d = "flat-bottom-serifless"
-f = "serifed-crossbar-at-half-ascender-height"
-g = "single-storey-flat-top-serifless"
-h = "straight-serifless"
-i = "zshaped"
-j = "serifed"
-k = "straight-bottom-right-serifed"
+f = "serifless-crossbar-at-half-ascender-height"
+i = "hooky"
+j = "flat-hook-serifed"
+k = "curly-serifless"
 l = "zshaped"
-m = "flat-top-serifless"
-n = "flat-top-straight-serifless"
-p = "flat-top-serifless"
-q = "flat-top-straight-serifless"
-r = "corner-hooked-base-serifed"
+m = "short-leg-serifless"
+r = "flat-top-serifless"
 t = "hookless-short-neck2"
-u = "flat-bottom-serifless"
-v = "straight-serifless"
-w = "straight-serifless"
-y = "cursive-serifless"
+u = "toothless-rounded-serifless"
+v = "curly-serifless"
+w = "straight-vertical-sides-serifless"
 z = "straight-serifless-with-crossbar"
-lower-lambda = "curly-tailed-turn"
-lower-pi = "tailless"
+lower-lambda = "straight-turn"
 punctuation-dot = "square"
 braille-dot = "square"
 ellipsis-density = "normal"
 asterisk = "turn-hex-mid"
-underscore = "high"
-ascii-grave = "straight"
-ascii-single-quote = "straight"
-number-sign = "upright-open"
-ampersand = "closed"
 at = "fourfold-solid-inner"
-dollar = "slanted-through-cap"
+dollar = "slanted-through"
 cent = "slanted-through"
 percent = "dots"
 question = "corner-flat-hooked"
-micro-sign = "flat-bottom-serifless"
-decorative-angle-brackets = "short"
-lig-ltgteq = "slanted"
-lig-neq = "more-slanted"
-lig-equal-chain = "without-notch"
-lig-hyphen-chain = "without-notch"
-lig-plus-chain = "without-notch"
-lig-double-arrow-bar = "without-notch"
+micro-sign = "toothless-rounded-serifless"
 
-[buildPlans.MeowCode.widths.Normal]
-shape = 500
-menu = 5
-css = "normal"
+[buildPlans.Fgf.weights.Regular]
+shape = 400
+menu = 400
+css = 400
 
-[buildPlans.MeowCode.slopes.Upright]
+[buildPlans.Fgf.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.Fgf.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.MeowCode.slopes.Italic]
+[buildPlans.Fgf.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
