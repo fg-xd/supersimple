@@ -133,7 +133,7 @@ percent = "dots"
 question = "corner-flat-hooked"
 micro-sign = "toothless-rounded-serifless"
 
-[buildPlans.IosevkaCustom.weights.Regular]
+[buildPlans.MeowCode.weights.Regular]
 shape = 450
 menu = 450
 css = 450
