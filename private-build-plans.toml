@@ -1,4 +1,4 @@
-[buildPlans.IosevkaCustom]
+[buildPlans.MeowCode]
 family = "meow code"
 spacing = "normal"
 serifs = "sans"
@@ -6,9 +6,14 @@ noCvSs = true
 exportGlyphNames = false
 noLigation = true
 
-[buildPlans.IosevkaCustom.variants.design]
+[buildPlans.MeowCode.variants.design]
+one = "no-base-top-cut"
+two = "curly-neck-serifless"
 four = "open-serifless"
+five = "upright-flat-serifless"
 six = "closed-contour"
+seven = "curly-serifless"
+eight = "two-circles"
 nine = "closed-contour"
 zero = "diamond-reverse-slashed-split"
 capital-a = "curly-serifless"
@@ -65,9 +70,13 @@ percent = "dots"
 question = "corner-flat-hooked"
 micro-sign = "toothless-rounded-serifless"
 
-[buildPlans.IosevkaCustom.variants.italic]
+[buildPlans.MeowCode.variants.italic]
+one = "no-base-top-cut"
 four = "open-serifless"
+five = "upright-flat-serifless"
 six = "closed-contour"
+seven = "curly-serifless"
+eight = "two-circles"
 nine = "closed-contour"
 zero = "diamond-reverse-slashed-split"
 capital-a = "curly-serifless"
@@ -129,23 +138,23 @@ shape = 450
 menu = 450
 css = 450
 
-[buildPlans.IosevkaCustom.weights.Bold]
+[buildPlans.MeowCode.weights.Bold]
 shape = 800
 menu = 800
 css = 800
 
-[buildPlans.IosevkaCustom.widths.Normal]
+[buildPlans.MeowCode.widths.Normal]
 shape = 500
 menu = 5
 css = "normal"
 
-[buildPlans.IosevkaCustom.slopes.Upright]
+[buildPlans.MeowCode.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.IosevkaCustom.slopes.Italic]
+[buildPlans.MeowCode.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
